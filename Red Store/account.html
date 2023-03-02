@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Red Store | Ecomerce website design</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">	
+	<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+		  <div class="menu-icon-wrapper">
+			<a href="cart.html"><img src="images/cart.png" width="25px" height="25px" class="menu-icon"></a>
+			<img src="images/menu.png" class="menu-icon" width="25px" height="25px" onclick="menutoggle()">
+		  </div>
+		</div>
+			<nav>
+				<ul id="menuitems">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="account.html">Account</a></li>
+					<a href="cart.html"><img src="images/cart.png" width="25px" height="25px" class="cart-icon"></a>
+				</ul>
+			</nav>
+          </div>
+</div>
+
+<!-- ------------------------Account ------------------------ -->
+
+<div class="account-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-2">
+				<img src="images/image1.png" alt="">
+			</div>
+			<div class="col-2">
+				<div class="form-container">
+				   <div class="foam-btn">
+					<span onclick="log()">Login</span>
+					<span onclick="reg()" id="register">Register</span>
+					<hr id="indicator">
+				   </div>
+				   <form id="logForm">
+				   	<input type="text" placeholder="Username">
+				   	<input type="password" placeholder="Password">
+				   	<button class="btn" type="submit">Login</button>
+				   	<a href="">Forgot password</a>
+				   </form>
+
+				   <form id="regForm">
+				   	<input type="text" placeholder="Username">
+				   	<input type="email" placeholder="Email">
+				   	<input type="password" placeholder="Password">
+				   	<button class="btn" type="submit">Register</button>
+				   </form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	 <!---------------- Footer---------------------->
+	 <div class="footer">
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="footer-col-1">
+	 				<h3>Download Our App</h3>
+	 				<p>Lorem, ipsum dolor sit amet consectetur.</p>
+	 				<div class="app-logo">
+	 					<img src="images/app-store.png" alt="">
+	 					<img src="images/play-store.png" alt="">
+	 				</div>
+	 			</div>
+	 			<div class="footer-col-2">
+	 				<a href="index.html"><img src="images/logo-white.png"></a>
+	 				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, temporibus.</p>
+	 			</div>
+	 			<div class="footer-col-3">
+	 				<h3>Useful Links</h3>
+	 				<ul>
+	 					<li><a href="">Coupones</a></li>
+	 					<li><a href="">Blog Post</a></li>
+	 					<li><a href="">Return Policy</a></li>
+	 					<li><a href="">Join Affiliate</a></li>
+	 				</ul>
+	 			</div>
+	 			<div class="footer-col-4">
+	 				<h3>Follow us</h3>
+	 				<ul>
+	 					<li><a href="">Facebook</a></li>
+	 					<li><a href="">Twitter</a></li>
+	 					<li><a href="">Instagram</a></li>
+	 					<li><a href="">Youtube</a></li>
+	 				</ul>
+	 			</div>
+	 		</div>
+	 		<hr>
+	 		<p class="copyright">Develop by Jawad Ahmed © 2023</p>
+	 	</div>
+	 </div>
+	 <!-- Javascript Link -->
+	 <script src="js/script.js"></script>
+</body>
+</html>
